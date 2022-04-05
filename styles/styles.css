@@ -970,6 +970,10 @@ section {
   resize: none;
 }
 
+.contact-content-con .right-contact .input-control input:focus, .contact-content-con .right-contact .input-control textarea:focus {
+  border: 1px solid var(--colour-secondary);
+}
+
 .contact-content-con .right-contact .input-control-2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -980,11 +984,15 @@ section {
   margin-left: 1.5rem;
 }
 
-.contact-content-con .right-contact .btn-con .submit-btn {
+.submit-btn {
   border-radius: 25px;
   position: relative;
-  background-color: var(--colour-secondary);
+  font-weight: 600;
+  font-size: inherit;
+  color: inherit;
+  background-color: inherit;
   border: 1px solid var(--colour-secondary);
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -994,16 +1002,11 @@ section {
   overflow: hidden;
 }
 
-.contact-content-con .right-contact .btn-con .submit-btn input {
-  font-weight: 600;
-  font-size: inherit;
-  color: inherit;
-  background-color: var(--colour-secondary);
-  border: none;
+.submit-btn .btn-text {
   padding: 0.5rem 2rem;
 }
 
-.contact-content-con .right-contact .btn-con .submit-btn .btn-icon {
+.submit-btn .btn-icon {
   background-color: var(--colour-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
