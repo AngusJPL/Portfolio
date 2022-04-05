@@ -319,9 +319,8 @@ section {
       align-self: flex-start;
 }
 
-.btn-con .main-btn {
+.main-btn {
   border-radius: 25px;
-  color: inherit;
   font-weight: 600;
   position: relative;
   border: 1px solid var(--colour-secondary);
@@ -334,11 +333,11 @@ section {
   overflow: hidden;
 }
 
-.btn-con .main-btn .btn-text {
+.main-btn .btn-text {
   padding: 0 2rem;
 }
 
-.btn-con .main-btn .btn-icon {
+.main-btn .btn-icon {
   background-color: var(--colour-secondary);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,7 +354,7 @@ section {
   width: 50px;
 }
 
-.btn-con .main-btn::before {
+.main-btn::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -369,7 +368,7 @@ section {
   z-index: -1;
 }
 
-.btn-con .main-btn:hover::before {
+.main-btn:hover::before {
   background-color: var(--colour-secondary);
   -webkit-transform: translateX(0);
           transform: translateX(0);
