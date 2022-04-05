@@ -234,7 +234,6 @@ section {
   display: flex;
   align-self: flex-start;
 }
-
 .main-btn {
   border-radius: 25px;
   font-weight: 600;
@@ -703,6 +702,35 @@ section {
       display: flex;
       & :last-child {
         margin-left: 1.5rem;
+      }
+    }
+    .btn-con {
+      .submit-btn {
+        border-radius: 25px;
+        position: relative;
+        background-color: var(--colour-secondary);
+        border: 1px solid var(--colour-secondary);
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        input {
+          font-weight: 600;
+          font-size: inherit;
+          color: inherit;
+          background-color: var(--colour-secondary);
+          border: none;
+          padding: 0.5rem 2rem;
+        }
+        .btn-icon {
+          background-color: var(--colour-secondary);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          padding: 1rem;
+          height: 50px;
+          width: 50px;
+        }
       }
     }
   }
